@@ -1,0 +1,320 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #423028;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    align-items: center;
+}
+
+.Logos {
+    text-align: center;
+}
+
+.Logos img {
+    width: 600px;
+    height: 250px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove a linha sublinhada */
+    color: inherit; /* Garante que o link herde a cor do elemento pai */
+}
+
+nav ul li a:hover {
+    color: #836a42; /* Cor ao passar o mouse */
+}
+
+hr {
+    border: 0;
+    border-top: 3px solid rgb(51, 34, 20);
+    width: 96%;
+    margin: 10px auto;
+}
+
+#TecIA {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+#TecIA img {
+    width: 600px;
+    height: 600px;
+    border-radius: 70px;
+    opacity: 80%;
+    padding: 20px;
+}
+
+.texto {
+    text-align: justify;
+    padding: 70px;
+    padding-left: 50px;
+}
+
+.texto h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.texto p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.texto hr{
+    margin-top: 100px;
+}
+
+#Impactos {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+#Impactos img {
+    width: 600px;
+    height: 600px;
+    border-radius: 70px;
+    opacity: 90%;
+    padding: 20px;
+}
+
+.texto2 {
+    text-align: justify;
+    padding: 70px;
+    padding-left: 50px;
+}
+
+.texto2 h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.texto2 p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.texto2 hr{
+    margin-top: 100px;
+}
+
+
+#Desafios {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+#Desafios img {
+    width: 600px;
+    height: 600px;
+    border-radius: 70px;
+    opacity: 70%;
+    padding: 20px;
+}
+
+.texto3 {
+    text-align: justify;
+    padding: 70px;
+    padding-left: 50px;
+}
+
+.texto3 h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.texto3 p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.texto3 hr{
+    margin-top: 300px;
+}
+
+.texto3 ul li {
+    list-style:disc;
+}
+
+#Rel {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+#Rel img {
+    width: 600px;
+    height: 700px;
+    border-radius: 70px;
+    opacity: 50%;
+    padding: 20px;
+}
+
+.texto4 {
+    text-align: justify;
+    padding: 70px;
+    padding-left: 50px;
+}
+
+.texto4 h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.texto4 p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.texto4 hr{
+    margin-top: 200px;
+}
+
+.texto4 ul li {
+    list-style:disc;
+}
+
+#Human {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+#Human img {
+    width: 600px;
+    height: 700px;
+    border-radius: 70px;
+    opacity: 50%;
+    padding: 20px;
+}
+
+.texto5 {
+    text-align: justify;
+    padding: 70px;
+    padding-left: 50px;
+}
+
+.texto5 h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.texto5 p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.texto5 hr{
+    margin-top: 200px;
+}
+
+.texto5 ul li {
+    list-style:disc;
+}
+
+@media(max-width:600px) {
+ *{
+    flex-direction: column;
+    margin-right:-50px;
+ }
+ .Logos img {
+    margin-bottom: 100px;
+ }
+ .menu {
+    padding-bottom: 200px;
+    justify-content: center;
+    padding-top: 60px;
+    padding-left: 80px;
+    text-align:center;
+ }
+ img {
+    margin-left: 80px;
+ }
+ul {
+    display: flex;
+    justify-content: center;
+}
+ul li a {
+    padding-right: 90px;
+}
+hr {
+    width: 100%;
+    margin-left: 70px;
+}
+#TecIA hr {
+    margin-left: -5px;
+    width: 110%;
+}
+#Impactos hr {
+    margin-left: -5px;
+    width: 110%;
+}
+#Desafios hr {
+    margin-left: -5px;
+    width: 130%;
+}
+#Impactos {
+    flex-direction: column-reverse;
+}
+#Desafios {
+    margin-right: 10px;
+}
+.titulo h1{
+    margin-right: -20px;
+}
+#Rel hr {
+    margin-left: -5px;
+    width: 110%;
+}
+#Rel {
+    flex-direction: column-reverse;
+}
+#Human img {
+    height: 900px;
+}
+}

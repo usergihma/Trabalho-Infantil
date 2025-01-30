@@ -1,0 +1,346 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #423028;
+}
+img {
+    justify-content: center;
+    align-content: center;
+    margin: 15px;
+}
+.menu{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    align-items: center;
+}
+.sub {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.sub img {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+}
+html { 
+    scroll-behavior: smooth; 
+} 
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li a:hover {
+    color: #836a42;
+}
+a p:hover {
+    color: #836a42;
+}
+hr {
+            border: 0;
+            border-top: 3px solid rgb(51, 34, 20); /* Define a espessura e cor da linha */
+            width: 96%; /* Define a largura da linha */
+            margin: 10px auto; /* Centraliza a linha */
+}
+a{    
+    text-decoration: none;
+    color: #582900;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#titulo {
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-items: center;
+}
+.sub {
+    justify-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+#trabalho_infantil {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px;
+
+    img {
+        float: left;
+        margin-right: 80px;
+        max-width: 700px;
+        opacity: 70%;
+    }
+    p {
+        overflow: hidden;
+    }
+    hr {
+        margin-top: 120px;
+    }
+}
+.TItitu {
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.TI {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+.TI a p {
+    font-weight: bold;
+}
+#desigualdade_racial {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px;
+
+    img {
+        float: right;
+        margin-left: 80px;
+        max-width: 700px;
+        opacity: 70%;
+    }
+    p {
+        overflow: hidden;
+    }
+    hr {
+        margin-top: 310px;
+    }
+}
+.DRtitu {
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.DR {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:justify;
+}
+#desigualdade_genero {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px;
+
+    img {
+        float: left;
+        margin-right: 80px;
+        max-width: 700px;
+        opacity: 70%;
+    }
+    p {
+        overflow: hidden;
+    }
+    hr {
+        margin-top: 300px;
+    }
+
+}
+.DGtitu {
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.DG {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+#emprego_e_tecno {
+    margin: 45px;
+    margin-bottom: 100px;
+}
+.poi {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-weight: bold;
+}
+.SOINFOtexto {
+    flex-direction: column;
+}
+.SOBINFOtudo {
+    display: flex;
+    align-items: flex-start; /* Alinha itens no topo */
+    gap: 20px; /* Espaçamento entre texto e imagem */
+    margin: 45px;
+}
+
+.SOBINFOtudo img {
+    max-width: 700px;
+    max-height: 2000px; /* Para manter a proporção *//* Espaçamento extra opcional */
+}
+
+.SOBINFOtudo p {
+    flex: 1; /* Faz o texto ocupar o espaço restante */
+    text-align: justify; /* Justifica o texto */
+}
+.SOBINFOtudo hr {
+    margin-top: 380px;
+}
+.SOBINFOtudo img {
+    opacity: 70%;
+}
+
+#infografico,
+#sobre {
+    font-size: 30px;
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.INFO,
+.SOBRE {
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+.INFO hr {
+    margin-top: 100px;
+}
+.tudo ul{ 
+    margin-top: 100px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    display: flex;
+    font-size: 17px; 
+    padding-bottom: 80px; 
+    color:#3b2c2c; 
+    justify-content: space-around; /* Espaçamento uniforme */
+    align-items: center;
+    list-style: none;
+} 
+
+footer img {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+footer {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Rodapé */
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+footer hr {
+    border-top: 1px solid rgb(51, 34, 20);
+}
+.redes p {
+    font-size: 20px; 
+}
+.nave1 { 
+    font-size: 20px; 
+} 
+
+.ajuda1 { 
+    font-size: 20px; 
+} 
+
+.formas { 
+    font-size: 20px; 
+}
+
+.formas img { 
+    height: 77px; 
+    width: 180px; 
+    margin-top: -6px; 
+}
+
+@media(max-width:600px) {
+    *{
+        margin-left: 0%;
+        margin-right: 0%;
+        align-items: center;
+        flex-direction:column;
+        float:none;
+    }
+   .tiudio {
+    text-align: center;
+   }
+   .tiudio hr {
+    margin-top: 250px;
+   }
+   img {
+    height: 350px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    }
+   section {
+    align-items: center;
+   }
+   section ul li {
+    margin-top: 20px;
+    }
+   footer ul {
+    margin-top: 100px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    display: flex;
+    font-size: 17px; 
+    padding-bottom: 80px;
+    flex-direction: column;
+   }
+   nav ul li {
+    align-items: center;
+    font-size: small;
+    display:contents;
+   }
+   .SOBINFOtudo img{
+    height: 900px;
+    width: 400px;
+    margin-left: -70px;
+   }
+   .DGtitu {
+    margin-top: 80px;
+   }
+   #trabalho_infantil p{
+    padding-bottom: 20px;
+   }
+   #desigualdade_racial {
+    flex-direction: column-reverse;
+   }
+   .DRtitu {
+    margin-top: 40px;
+   }
+   .DR {
+    margin-top: 30px;
+   }
+   .DGtitu {
+    margin-top: 30px;
+   }
+   #desigualdade_racial img {
+    margin-left: -50px;
+   }
+   footer img{
+    padding-left: 0;
+   }
+   .DG {
+    margin-top: 30px;
+   }
+   }
